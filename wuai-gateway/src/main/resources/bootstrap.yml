@@ -25,7 +25,7 @@ spring:
           predicates:
             - Path=/user/login/**
         - id: mogu_web
-          uri: lb://WUAI-ADMIN
+          uri: lb://wuai-web
           predicates:
             - Path=/wuai-web/**
           filters:
