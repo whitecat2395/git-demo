@@ -30,6 +30,12 @@ spring:
             - Path=/wuai-web/**
           filters:
             - StripPrefix=1
+        - id: mogu_admin
+          uri: lb://wuai-admin
+          predicates:
+            - Path=/wuai-admin/**
+          filters:
+            - StripPrefix=1
     nacos:
       discovery:
         server-addr: localhost:8848
