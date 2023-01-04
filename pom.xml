@@ -9,6 +9,14 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>wuai-gateway</module>
+        <module>wuai-admin</module>
+        <module>wuai-commons</module>
+        <module>wuai</module>
+        <module>wuai-autho</module>
+        <module>wuai-static</module>
+        <module>wuai-mqclient</module>
+        <module>wuai-user</module>
+        <module>wuai-shopserver</module>
     </modules>
     <packaging>pom</packaging>
 
