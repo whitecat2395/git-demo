@@ -33,12 +33,12 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
-    config:
-      server-addr: localhost:8848   #nacos作为配置中心地址
-      file-extension: yaml  #声明DataId的格式为yaml
-      group: DEV_GROUP
-      #group: TEST_GROUP
-      #namespace: a4cfebad-64f5-4e87-b21f-b2bc683fb7ba
+      config:
+        server-addr: localhost:8848   #nacos作为配置中心地址
+        file-extension: yaml  #声明DataId的格式为yaml
+        group: DEV_GROUP
+        #group: TEST_GROUP
+        namespace: a4cfebad-64f5-4e87-b21f-b2bc683fb7ba
 
 
 #eureka:
