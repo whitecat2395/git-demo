@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de033b07-186c-42e7-9b77-35c7adf689ab" name="Default Changelist" comment="修改wuaishop的pom">
+    <list default="true" id="de033b07-186c-42e7-9b77-35c7adf689ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wuai-gateway/src/main/java/com/wuaishop/gateway/config/GatewayConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +67,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="D:/java业余班/shop-service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wuai-gateway/src/main/java/com/wuaishop/gateway/config" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -120,7 +122,8 @@
       <option name="presentableId" value="Default" />
       <updated>1672810361442</updated>
       <workItem from="1672810367789" duration="12294000" />
-      <workItem from="1672881320829" duration="7684000" />
+      <workItem from="1672881320829" duration="8445000" />
+      <workItem from="1672902680288" duration="2522000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交，创建父级项目">
       <created>1672811266416</created>
@@ -206,11 +209,28 @@
       <option name="project" value="LOCAL" />
       <updated>1672884253998</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="修改wuaishop的pom">
+      <created>1672896704707</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1672896704707</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交，创建父级项目" />
@@ -226,18 +246,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="修改wuaishop的pom" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="387" y="89" key="#Project_Structure" timestamp="1672886258827">
+    <state x="387" y="89" key="#Project_Structure" timestamp="1672897301771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="387" y="89" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1672886258827" />
+    <state x="387" y="89" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1672897301771" />
     <state x="554" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1672816826840">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="554" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1672816826840" />
-    <state x="358" y="17" key="CommitChangelistDialog2" timestamp="1672887269212">
+    <state x="358" y="17" key="CommitChangelistDialog2" timestamp="1672896704157">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="358" y="17" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1672887269212" />
+    <state x="358" y="17" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1672896704157" />
     <state x="575" y="171" key="FileChooserDialogImpl" timestamp="1672819838886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -246,22 +266,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="666" y="323" width="273" height="263" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1672825070462" />
-    <state width="1205" height="183" key="GridCell.Tab.0.bottom" timestamp="1672896584559">
+    <state width="1205" height="183" key="GridCell.Tab.0.bottom" timestamp="1672897302620">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1205" height="183" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1672896584559" />
-    <state width="1205" height="183" key="GridCell.Tab.0.center" timestamp="1672896584559">
+    <state width="1205" height="183" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1672897302620" />
+    <state width="1205" height="183" key="GridCell.Tab.0.center" timestamp="1672897302620">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1205" height="183" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1672896584559" />
-    <state width="1205" height="183" key="GridCell.Tab.0.left" timestamp="1672896584559">
+    <state width="1205" height="183" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1672897302620" />
+    <state width="1205" height="183" key="GridCell.Tab.0.left" timestamp="1672897302620">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1205" height="183" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1672896584559" />
-    <state width="1205" height="183" key="GridCell.Tab.0.right" timestamp="1672896584559">
+    <state width="1205" height="183" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1672897302620" />
+    <state width="1205" height="183" key="GridCell.Tab.0.right" timestamp="1672897302620">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1205" height="183" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1672896584559" />
+    <state width="1205" height="183" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1672897302620" />
     <state width="1222" height="233" key="GridCell.Tab.1.bottom" timestamp="1672825650552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -302,14 +322,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="439" y="76" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1672811093888" />
-    <state x="471" y="167" key="Vcs.Push.Dialog.v2" timestamp="1672887290460">
+    <state x="471" y="167" key="Vcs.Push.Dialog.v2" timestamp="1672896720671">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="471" y="167" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1672887290460" />
-    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1672896554091">
+    <state x="471" y="167" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1672896720671" />
+    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1672911108481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1672896554091" />
+    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1672911108481" />
     <state x="269" y="128" key="new project wizard" timestamp="1672824494740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
