@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="de033b07-186c-42e7-9b77-35c7adf689ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-gateway/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-gateway/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-gateway/target/classes/com/wuaishop/gateway/controller/GatewayApplication.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +42,9 @@
         <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="2Jqf6vTzsWqFpo8wBojH9kYeWS8" />
   <component name="ProjectViewState">
@@ -110,6 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672810361442</updated>
       <workItem from="1672810367789" duration="12294000" />
+      <workItem from="1672881320829" duration="2154000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交，创建父级项目">
       <created>1672811266416</created>
@@ -181,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672824778247</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="修改pom中添加的model">
+      <created>1672881442923</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672881442923</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +211,8 @@
     <MESSAGE value="构建基础网关1.2" />
     <MESSAGE value="构建基础网关1.3" />
     <MESSAGE value="构建admin服务,Autho2服务，rabbitMQ服务，user服务，commons服务，shop商城服务。" />
-    <option name="LAST_COMMIT_MESSAGE" value="构建admin服务,Autho2服务，rabbitMQ服务，user服务，commons服务，shop商城服务。" />
+    <MESSAGE value="修改pom中添加的model" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改pom中添加的model" />
   </component>
   <component name="WindowStateProjectService">
     <state x="387" y="89" key="#Project_Structure" timestamp="1672812962956">
@@ -207,10 +223,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="554" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1672816826840" />
-    <state x="358" y="17" key="CommitChangelistDialog2" timestamp="1672824777405">
+    <state x="358" y="17" key="CommitChangelistDialog2" timestamp="1672881442142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="358" y="17" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1672824777405" />
+    <state x="358" y="17" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1672881442142" />
     <state x="575" y="171" key="FileChooserDialogImpl" timestamp="1672819838886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -219,22 +235,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="666" y="323" width="273" height="263" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1672825070462" />
-    <state width="1222" height="233" key="GridCell.Tab.0.bottom" timestamp="1672825650551">
+    <state width="1205" height="2" key="GridCell.Tab.0.bottom" timestamp="1672881537047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1222" height="233" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1672825650551" />
-    <state width="1222" height="233" key="GridCell.Tab.0.center" timestamp="1672825650551">
+    <state width="1205" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1672881537047" />
+    <state width="1205" height="2" key="GridCell.Tab.0.center" timestamp="1672881537047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1222" height="233" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1672825650551" />
-    <state width="1222" height="233" key="GridCell.Tab.0.left" timestamp="1672825650551">
+    <state width="1205" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1672881537047" />
+    <state width="1205" height="2" key="GridCell.Tab.0.left" timestamp="1672881537047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1222" height="233" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1672825650551" />
-    <state width="1222" height="233" key="GridCell.Tab.0.right" timestamp="1672825650551">
+    <state width="1205" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1672881537047" />
+    <state width="1205" height="2" key="GridCell.Tab.0.right" timestamp="1672881537047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1222" height="233" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1672825650551" />
+    <state width="1205" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1672881537047" />
     <state width="1222" height="233" key="GridCell.Tab.1.bottom" timestamp="1672825650552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -271,14 +287,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="439" y="76" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1672811093888" />
-    <state x="471" y="167" key="Vcs.Push.Dialog.v2" timestamp="1672824785714">
+    <state x="471" y="167" key="Vcs.Push.Dialog.v2" timestamp="1672881452629">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="471" y="167" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1672824785714" />
-    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1672881396773">
+    <state x="471" y="167" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1672881452629" />
+    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1672884225698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1672881396773" />
+    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1672884225698" />
     <state x="269" y="128" key="new project wizard" timestamp="1672824494740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
