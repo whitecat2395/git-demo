@@ -11,9 +11,11 @@ spring:
       routes:
         - id: payment_routh   #payment_route #路由的ID没有固定规则但要求唯一，建议配合服务名
           #uri: http://localhost:8001    #匹配后提供服务的路由地址#
-          uri: lb://PAYORDER-SERVER #匹配后提供服务的路由地址
+          uri: lb://wuai-user-service #匹配后提供服务的路由地址
           predicates:
-            - Path=/consumer/payment/create/**      #断言,路径相匹配的进行路由
+            - Path=/wuai/user/**      #断言,路径相匹配的进行路由
+          filters:
+            - StripPrefix=1
         - id: payment_routh2
           #uri: http://localhost:8001
           uri: lb://PAYORDER-SERVER #匹配后提供服务的路由地址

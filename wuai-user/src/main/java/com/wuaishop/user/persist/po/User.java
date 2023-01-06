@@ -1,7 +1,11 @@
 package com.wuaishop.user.persist.po;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import org.apache.naming.factory.SendMailFactory;
+import org.springframework.format.annotation.DateTimeFormat;
+
+import java.util.Date;
 
 @Data
 public class User {
@@ -12,8 +16,10 @@ public class User {
     private String nickName;
     private String email;
     private String phone;
-    private String freeze;
-    private String deptId;
+    private int freeze;
+    private int deptId;
     private String remark;
-    private String insertTime;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
+    private Date insertTime;
 }

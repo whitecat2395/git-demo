@@ -2,7 +2,7 @@ server:
   port: 9001
 spring:
   application:
-    name: nacos-payment-service
+    name: wuai-user-service
   cloud:
     nacos:
       discovery:

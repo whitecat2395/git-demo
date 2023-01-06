@@ -4,15 +4,16 @@ import com.wuaishop.user.persist.mapper.UserMapper;
 import com.wuaishop.user.persist.po.User;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 @Service
 public class UserService {
+    @Resource
     private UserMapper userMapper;
 
     public List<User> queryAllUser() {
-        List<User> userList =userMapper.queryAllUser();
-        return userList;
+        return userMapper.queryAllUser();
     }
 
     public User queryUserById(String id) {

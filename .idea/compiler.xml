@@ -8,13 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="wuai-commons" />
-        <module name="wuai-mqclient" />
-        <module name="wuai-user" />
-        <module name="wuai-static" />
+        <module name="wuai-autho" />
         <module name="wuai-gateway" />
+        <module name="wuai-user" />
+        <module name="wuai-mqclient" />
         <module name="wuai-shopserver" />
         <module name="wuai-admin" />
-        <module name="wuai-autho" />
+        <module name="wuai-static" />
       </profile>
     </annotationProcessing>
   </component>
