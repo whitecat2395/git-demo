@@ -2,101 +2,345 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de033b07-186c-42e7-9b77-35c7adf689ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/NoPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/basepath.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/layout/aside.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/layout/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/layout/tabbar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/order/problem/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/order/problem/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/order/problem/list-single.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/order/todo/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/order/todo/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/order/todo/preview.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/equipment/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/equipment/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/equipment/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/equipment/set-status.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room-area/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room-area/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room-area/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room-warn/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room-warn/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room/bind-user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room/equipment-add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room/equipment-list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room/set-status.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/staff/dept/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/staff/dept/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/staff/dept/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/staff/user/bind-dept.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/staff/user/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/log/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/menu/add-child.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/menu/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/menu/edit-child.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/menu/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/menu/list-children.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/menu/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/password/password.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/permission/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/permission/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/permission/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/role/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/role/bind-menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/role/bind-permission.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/role/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/role/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/user/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/user/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/user/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/equipment-brand/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/equipment-brand/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/equipment-brand/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/equipment-status/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/equipment-status/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/equipment-status/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/log-map/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/log-map/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/log-map/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/order-status/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/order-status/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/order-status/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/sex/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/sex/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/sex/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/css/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/image/bg1.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/image/no-img.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/js/qs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/js/treeTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/layui/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/css/bg_caption.png.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/css/forget.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/css/idea.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/css/mygrxx.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/css/mygxin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/css/myorder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/css/proList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/dian2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/ds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/ewm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/flo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/flo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/flo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/flo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/flo5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/flo6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/foot1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/foot2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/foot3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/foot4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/g1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/grzx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/gt1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/gt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/gt3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/gt4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/gwc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/gxin1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/gxin2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/gxin3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/gxin4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/hxin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/i1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/i2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/i3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/ib1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/id1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/id10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/id11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/id12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/id13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/id14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/id15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/id16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/id2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/id3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/id4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/id5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/id6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/id7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/id8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/id9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/idea1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/idea10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/idea2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/idea22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/idea3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/idea4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/idea5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/idea6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/idea7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/idea8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/idea9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/ih1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/ih2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/ih3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/ih5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/ih6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/jia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/n1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/n2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/n3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/n4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/n5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/n6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/nav1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/nav2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/nav3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/nav6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/nav7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/s1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/s10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/s11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/s12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/s2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/s3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/s4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/s5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/s6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/s7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/s8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/s9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/smewm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/sprite_arrow_2.png.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/sprite_nav_3.png.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/ss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/add.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/bz01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/bz02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/bz03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/bz04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/bz05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/bz06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/bz07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/bz08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/bzbig.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/cart01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/cart02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/cart03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/cartTop01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/cartTop02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/cartTop03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/check.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/checkOn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/code.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/det01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/det02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/det03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/det04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/det05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/det06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/det07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/down.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/eva01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/eva02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/eva03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/eva04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/eva05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/like01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/like02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/like03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/like04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/like05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/off.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/order01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/order02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/paint01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/paint02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/per01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/per02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/perfumeTit01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/perfumeTit02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/perfume_Banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/pro01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/pro02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/pro03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/pro04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/pro05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/pro06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/pro07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/pro08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/proBig01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/proBig02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/proBig03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/proBig04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/proDet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/proDet01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/proDet01_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/proDet02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/proDet02_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/proDet03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/proDet03_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/proDet04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/proDet04_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/prosmall01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/prosmall02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/prosmall03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/prosmall04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec201.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec202.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec203.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec204.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec205.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec206.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec301.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec302.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec303.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec304.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec305.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec401.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec402.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec403.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sec405.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/see01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/see02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/see03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/see04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/sub.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/tit01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/tit02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/tit03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/up.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/vase01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/vase02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/vase03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/vase04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/vase05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/vase06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/vase07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/vase08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/way01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/way02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/way03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/way04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/xx01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/xx02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/xx103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/xx104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/xx105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/xx106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/xx201.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/xx202.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/xx203.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/xx204.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/xx205.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/xx206.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/xxB01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/xxB02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/zb01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/zb02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/zb03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/zb04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/zb05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/zb06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/zb07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/zb08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/temp/zbBanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/tx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/xin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/you.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/img/zuo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/js/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/js/jquery.SuperSlide.2.1.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/js/jquery.flexslider-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/js/nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/js/pro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/js/public.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/js/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuai-static/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/basepath.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/layout/aside.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/layout/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/layout/tabbar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/order/problem/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/order/problem/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/order/problem/list-single.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/order/todo/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/order/todo/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/order/todo/preview.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/equipment/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/equipment/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/equipment/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/equipment/set-status.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room-area/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room-area/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room-area/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room-warn/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room-warn/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room/bind-user.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room/equipment-add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room/equipment-list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/room/room/set-status.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/staff/dept/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/staff/dept/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/staff/dept/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/staff/user/bind-dept.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/staff/user/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/log/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/menu/add-child.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/menu/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/menu/edit-child.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/menu/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/menu/list-children.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/menu/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/password/password.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/permission/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/permission/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/permission/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/role/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/role/bind-menu.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/role/bind-permission.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/role/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/role/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/user/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/user/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/system/user/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/equipment-brand/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/equipment-brand/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/equipment-brand/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/equipment-status/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/equipment-status/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/equipment-status/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/log-map/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/log-map/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/log-map/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/order-status/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/order-status/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/order-status/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/sex/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/sex/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/WEB-INF/views/type/sex/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/image/bg1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/image/no-img.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-static/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/js/qs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/src/main/webapp/js/treeTable.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +403,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wuai-static/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wuai-static/src/main/webapp/css" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -173,6 +417,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GItWorkspace\wuaishop\wuai-static\src\main\webapp\css" />
+      <recent name="D:\GItWorkspace\wuaishop\wuai-static\src\main\webapp" />
+      <recent name="D:\GItWorkspace\wuaishop\wuai-static\src\main\webapp\js" />
       <recent name="D:\GItWorkspace\wuaishop\wuai-static\src\main" />
       <recent name="D:\GItWorkspace\wuaishop\wuai-gateway\src\main\java\com\wuaishop\gateway\config" />
     </key>
@@ -236,7 +483,7 @@
       <workItem from="1672810367789" duration="12294000" />
       <workItem from="1672881320829" duration="8445000" />
       <workItem from="1672902680288" duration="3431000" />
-      <workItem from="1672966948895" duration="1427000" />
+      <workItem from="1672966948895" duration="2710000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交，创建父级项目">
       <created>1672811266416</created>
@@ -350,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672968063181</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="为静态服务器配置web资源">
+      <created>1672968500026</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1672968500026</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +634,8 @@
     <MESSAGE value="添加gateway的config配置" />
     <MESSAGE value="添加用户服务pom文件" />
     <MESSAGE value="构建静态资源服务器" />
-    <option name="LAST_COMMIT_MESSAGE" value="构建静态资源服务器" />
+    <MESSAGE value="为静态服务器配置web资源" />
+    <option name="LAST_COMMIT_MESSAGE" value="为静态服务器配置web资源" />
   </component>
   <component name="WindowStateProjectService">
     <state x="387" y="89" key="#Project_Structure" timestamp="1672967244624">
@@ -399,10 +654,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="747" y="328" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1536.824@0.0.1536.824" timestamp="1672968389620" />
-    <state x="358" y="17" key="CommitChangelistDialog2" timestamp="1672968062253">
+    <state x="643" y="220" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1672969674038">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="358" y="17" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1672968062253" />
+    <state x="643" y="220" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1672969674038" />
+    <state x="358" y="17" key="CommitChangelistDialog2" timestamp="1672968499108">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="358" y="17" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1672968499108" />
     <state x="575" y="171" key="FileChooserDialogImpl" timestamp="1672968388850">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -467,14 +726,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="439" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1672968393577" />
-    <state x="471" y="167" key="Vcs.Push.Dialog.v2" timestamp="1672911862704">
+    <state x="471" y="167" key="Vcs.Push.Dialog.v2" timestamp="1672968521138">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="471" y="167" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1672911862704" />
-    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1672968418951">
+    <state x="471" y="167" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1672968521138" />
+    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1672969693149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1672968418951" />
+    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1672969693149" />
     <state x="269" y="128" key="new project wizard" timestamp="1672824494740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
