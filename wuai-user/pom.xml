@@ -12,7 +12,11 @@
     <artifactId>wuai-user</artifactId>
 
     <dependencies>
-
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>wuai-commons</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!-- 集成swagger-->
         <dependency>
             <groupId>io.springfox</groupId>
