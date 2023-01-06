@@ -13,9 +13,9 @@ spring:
     url: jdbc:mysql://localhost:3306/atguigu2022?userUnicode=true&characterEncodeing=utf-8&userSSL=false
     username: root
     password: 12345678
-  mvc:
-    pathmatch:
-      matching-strategy: ant_path_matcher
+#  mvc:
+#    pathmatch:
+#      matching-strategy: ant_path_matcher
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.atguigu.springcloud.entities #所有entity别名类所在的包
