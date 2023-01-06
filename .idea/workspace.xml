@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de033b07-186c-42e7-9b77-35c7adf689ab" name="Default Changelist" comment="">
+    <list default="true" id="de033b07-186c-42e7-9b77-35c7adf689ab" name="Default Changelist" comment="添加用户服务pom文件">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/java/com/wuaishop/wuaistatic/StaticApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-static/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuai-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-gateway/src/main/java/com/wuaishop/gateway/controller/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-gateway/src/main/java/com/wuaishop/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-static/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-static/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,22 +88,36 @@
       <recent name="D:\GItWorkspace\wuaishop\wuai-gateway\src\main\java\com\wuaishop\gateway\config" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.StaticApplication">
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="wuai-gateway" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wuaishop.gateway.controller.*" />
+          <option name="PATTERN" value="com.wuaishop.gateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wuaishop.gateway.controller.GatewayApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wuaishop.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="wuai-static" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wuaishop.wuaistatic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wuaishop.wuaistatic.StaticApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.StaticApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
       </list>
     </recent_temporary>
@@ -127,7 +146,8 @@
       <updated>1672810361442</updated>
       <workItem from="1672810367789" duration="12294000" />
       <workItem from="1672881320829" duration="8445000" />
-      <workItem from="1672902680288" duration="3207000" />
+      <workItem from="1672902680288" duration="3431000" />
+      <workItem from="1672966948895" duration="971000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交，创建父级项目">
       <created>1672811266416</created>
@@ -227,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672911169719</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="添加用户服务pom文件">
+      <created>1672911845245</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1672911845245</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,21 +282,30 @@
     <MESSAGE value="修改pom中添加的model" />
     <MESSAGE value="修改wuaishop的pom" />
     <MESSAGE value="添加gateway的config配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加gateway的config配置" />
+    <MESSAGE value="添加用户服务pom文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加用户服务pom文件" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="387" y="89" key="#Project_Structure" timestamp="1672911664591">
+    <state x="387" y="89" key="#Project_Structure" timestamp="1672967244624">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="387" y="89" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1672911664591" />
+    <state x="387" y="89" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1672967244624" />
     <state x="554" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1672816826840">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="554" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1672816826840" />
-    <state x="358" y="17" key="CommitChangelistDialog2" timestamp="1672911169031">
+    <state x="738" y="328" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1672967920730">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="358" y="17" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1672911169031" />
+    <state x="738" y="328" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1536.824@0.0.1536.824" timestamp="1672967920730" />
+    <state x="747" y="328" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1672967929833">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="747" y="328" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1536.824@0.0.1536.824" timestamp="1672967929833" />
+    <state x="358" y="17" key="CommitChangelistDialog2" timestamp="1672911848691">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="358" y="17" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1672911848691" />
     <state x="575" y="171" key="FileChooserDialogImpl" timestamp="1672819838886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -330,18 +366,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="593" y="137" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1672896615578" />
-    <state x="439" y="76" key="SettingsEditor" timestamp="1672811093888">
+    <state x="439" y="0" key="SettingsEditor" timestamp="1672967933582">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="439" y="76" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1672811093888" />
-    <state x="471" y="167" key="Vcs.Push.Dialog.v2" timestamp="1672911186909">
+    <state x="439" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1672967933582" />
+    <state x="471" y="167" key="Vcs.Push.Dialog.v2" timestamp="1672911862704">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="471" y="167" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1672911186909" />
-    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1672911808365">
+    <state x="471" y="167" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1672911862704" />
+    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1672968017583">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1672911808365" />
+    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1672968017583" />
     <state x="269" y="128" key="new project wizard" timestamp="1672824494740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
