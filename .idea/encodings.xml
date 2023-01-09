@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/wuai-admin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wuai-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wuai-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wuai-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wuai-autho/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wuai-autho/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wuai-commons/src/main/java" charset="UTF-8" />

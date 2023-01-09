@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de033b07-186c-42e7-9b77-35c7adf689ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/config/swagger/Swagger2config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/config/swagger/Swagger2properties.java" afterDir="false" />
+    <list default="true" id="de033b07-186c-42e7-9b77-35c7adf689ab" name="Default Changelist" comment="feat: 添加a&#10;pi">
+      <change afterPath="$PROJECT_DIR$/wuai-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-api/src/main/java/com/wuaishop/api/ApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-api/src/main/java/com/wuaishop/api/config/swagger/Swagger2config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-api/src/main/java/com/wuaishop/api/config/swagger/Swagger2properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-api/src/main/java/com/wuaishop/api/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wuai-api/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuai-gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuai-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/controller/impl/UserControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/controller/impl/UserControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/config/swagger/Swagger2properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/config/swagger/Swagger2properties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/controller/service/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/controller/service/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/persist/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/persist/po/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuai-user/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuai-user/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,32 +91,45 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springcloud2020/cloud2020" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17285156" />
     <property name="project.structure.side.proportion" value="0.2825059" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.wuaishop.user.persist.mapper" />
-      <recent name="com.wuaishop.user.service" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GItWorkspace\wuaishop\wuai-api\src\main\java\com\wuaishop\api" />
       <recent name="D:\GItWorkspace\wuaishop\wuai-user\src\main\java\com\wuaishop\user\config" />
       <recent name="D:\GItWorkspace\wuaishop\wuai-commons\src\main\java\com\wuai\commons\entities" />
       <recent name="D:\GItWorkspace\wuaishop\wuai-static\src\main\webapp\css" />
       <recent name="D:\GItWorkspace\wuaishop\wuai-static\src\main\webapp" />
-      <recent name="D:\GItWorkspace\wuaishop\wuai-static\src\main\webapp\js" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wuaishop.user.persist.mapper" />
+      <recent name="com.wuaishop.user.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication">
+  <component name="RunManager" selected="Spring Boot.ApiApplication">
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="wuai-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wuaishop.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wuaishop.api.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="wuai-gateway" />
       <extension name="coverage">
@@ -153,6 +165,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ApiApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.StaticApplication" />
       </list>
@@ -184,7 +197,8 @@
       <workItem from="1672881320829" duration="8445000" />
       <workItem from="1672902680288" duration="3431000" />
       <workItem from="1672966948895" duration="18184000" />
-      <workItem from="1672995753753" duration="682000" />
+      <workItem from="1672995753753" duration="1234000" />
+      <workItem from="1673226584532" duration="3740000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交，创建父级项目">
       <created>1672811266416</created>
@@ -368,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672990899334</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="feat: 新增用户查询功能。">
+      <created>1672998178626</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1672998178626</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,13 +428,14 @@
     <MESSAGE value="搭建user服务1.1" />
     <MESSAGE value="创建user服务" />
     <MESSAGE value="创建Userpo类" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建Userpo类" />
+    <MESSAGE value="feat: 新增用户查询功能。" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 新增用户查询功能。" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="387" y="89" key="#Project_Structure" timestamp="1672986219093">
+    <state x="387" y="89" key="#Project_Structure" timestamp="1673227302843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="387" y="89" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1672986219093" />
+    <state x="387" y="89" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1673227302843" />
     <state x="554" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1672816826840">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -434,54 +456,58 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="747" y="328" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1536.824@0.0.1536.824" timestamp="1672968389620" />
+    <state x="347" y="333" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1673227459067">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="347" y="333" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1673227459067" />
     <state x="643" y="220" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1672969674038">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="643" y="220" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1672969674038" />
-    <state x="358" y="17" key="CommitChangelistDialog2" timestamp="1672990898776">
+    <state x="358" y="17" key="CommitChangelistDialog2" timestamp="1673229533012">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="358" y="17" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1672990898776" />
-    <state x="575" y="171" key="FileChooserDialogImpl" timestamp="1672994800974">
+    <state x="358" y="17" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1673229533012" />
+    <state x="575" y="171" key="FileChooserDialogImpl" timestamp="1673232039809">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="575" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1672994800974" />
+    <state x="575" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1673232039809" />
     <state x="666" y="323" width="273" height="263" key="Github.ShareDialog" timestamp="1672825070462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="666" y="323" width="273" height="263" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1672825070462" />
-    <state width="1391" height="252" key="GridCell.Tab.0.bottom" timestamp="1672995738956">
+    <state width="1261" height="90" key="GridCell.Tab.0.bottom" timestamp="1673232041530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1391" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1672995738956" />
-    <state width="1391" height="252" key="GridCell.Tab.0.center" timestamp="1672995738956">
+    <state width="1261" height="90" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1673232041530" />
+    <state width="1261" height="90" key="GridCell.Tab.0.center" timestamp="1673232041530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1391" height="252" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1672995738956" />
-    <state width="1391" height="252" key="GridCell.Tab.0.left" timestamp="1672995738956">
+    <state width="1261" height="90" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1673232041530" />
+    <state width="1261" height="90" key="GridCell.Tab.0.left" timestamp="1673232041530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1391" height="252" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1672995738956" />
-    <state width="1391" height="252" key="GridCell.Tab.0.right" timestamp="1672995738956">
+    <state width="1261" height="90" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1673232041530" />
+    <state width="1261" height="90" key="GridCell.Tab.0.right" timestamp="1673232041530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1391" height="252" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1672995738956" />
-    <state width="1391" height="252" key="GridCell.Tab.1.bottom" timestamp="1672995738956">
+    <state width="1261" height="90" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1673232041530" />
+    <state width="1261" height="148" key="GridCell.Tab.1.bottom" timestamp="1673232041514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1391" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1672995738956" />
-    <state width="1391" height="252" key="GridCell.Tab.1.center" timestamp="1672995738956">
+    <state width="1261" height="148" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1673232041514" />
+    <state width="1261" height="148" key="GridCell.Tab.1.center" timestamp="1673232041514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1391" height="252" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1672995738956" />
-    <state width="1391" height="252" key="GridCell.Tab.1.left" timestamp="1672995738956">
+    <state width="1261" height="148" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1673232041514" />
+    <state width="1261" height="148" key="GridCell.Tab.1.left" timestamp="1673232041514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1391" height="252" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1672995738956" />
-    <state width="1391" height="252" key="GridCell.Tab.1.right" timestamp="1672995738956">
+    <state width="1261" height="148" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1673232041514" />
+    <state width="1261" height="148" key="GridCell.Tab.1.right" timestamp="1673232041514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1391" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1672995738956" />
+    <state width="1261" height="148" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1673232041514" />
     <state width="1222" height="233" key="GridCell.Tab.2.bottom" timestamp="1672825650552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -502,26 +528,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="593" y="137" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1672896615578" />
-    <state x="439" y="0" key="SettingsEditor" timestamp="1672971160002">
+    <state x="439" y="0" key="SettingsEditor" timestamp="1673229298002">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="439" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1672971160002" />
-    <state x="471" y="167" key="Vcs.Push.Dialog.v2" timestamp="1672990070153">
+    <state x="439" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1673229298002" />
+    <state x="471" y="167" key="Vcs.Push.Dialog.v2" timestamp="1672998187847">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="471" y="167" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1672990070153" />
+    <state x="471" y="167" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1672998187847" />
     <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1672997695778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1672997695778" />
-    <state x="269" y="128" key="new project wizard" timestamp="1672824494740">
+    <state x="269" y="128" key="new project wizard" timestamp="1673227149656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="269" y="128" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1672824494740" />
+    <state x="269" y="128" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1673227149640" />
     <state x="423" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1672990981029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="423" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1672990981029" />
+    <state x="583" y="105" key="spring file set editor" timestamp="1673229282860">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="583" y="105" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1673229282860" />
     <state x="555" y="351" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1672811142258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

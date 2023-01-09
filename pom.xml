@@ -17,6 +17,7 @@
         <module>wuai-mqclient</module>
         <module>wuai-user</module>
         <module>wuai-shopserver</module>
+        <module>wuai-api</module>
     </modules>
     <packaging>pom</packaging>
 

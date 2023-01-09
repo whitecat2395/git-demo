@@ -1,4 +1,4 @@
-package com.wuaishop.user.config.swagger;
+package com.wuaishop.api.config.swagger;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -27,6 +27,6 @@ public class Swagger2properties {
     /**
      * 扫描路径
      */
-    String basePackage = "com.wuaishop.user";
+    String basePackage = "com.wuaishop.api";
 
 }

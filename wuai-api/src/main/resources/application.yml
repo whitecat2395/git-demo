@@ -1,0 +1,10 @@
+server:
+  port: 7001
+spring:
+  application:
+    name: wuai-api-server
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

@@ -26,4 +26,5 @@ public interface UserController {
     @ApiOperation(value = "编辑用户接口")
     @GetMapping(value = "/updateOneUser")
     public CommonResult<User> updateOneUser();
+
 }

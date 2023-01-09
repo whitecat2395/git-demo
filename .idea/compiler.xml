@@ -12,6 +12,7 @@
         <module name="wuai-gateway" />
         <module name="wuai-user" />
         <module name="wuai-mqclient" />
+        <module name="wuai-api" />
         <module name="wuai-shopserver" />
         <module name="wuai-admin" />
         <module name="wuai-static" />
