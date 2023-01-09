@@ -2,6 +2,7 @@ package com.wuaishop.api.controller;
 
 import com.wuai.commons.entities.CommonResult;
 import com.wuai.commons.entities.User;
+import com.wuaishop.api.controller.request.UserRequest;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;
@@ -36,7 +37,7 @@ public class UserController {
     }
     @ApiOperation(value = "用户注册接口")
     @PostMapping(value = "/wuai/user/addUser")
-    public CommonResult<User> addUser(@RequestBody User user){
+    public CommonResult<User> addUser(@RequestBody UserRequest user){
         String url = uri+"/wuai/user"+"/addUser";
         RestTemplate restTemplate =new RestTemplate();
         CommonResult commonResult = restTemplate.postForObject(url,user,CommonResult.class);

@@ -1,6 +1,7 @@
 package com.wuaishop.user.controller.service;
 
 import com.wuai.commons.entities.CommonResult;
+import com.wuaishop.user.controller.request.UserRequest;
 import com.wuaishop.user.persist.po.User;
 import com.wuaishop.user.service.UserService;
 import io.swagger.annotations.Api;
@@ -27,6 +28,5 @@ public interface UserController {
 
     @ApiOperation(value = "用户注册接口")
     @PostMapping(value = "/addUser")
-    public CommonResult addUser(@RequestBody User user);
-
+    public CommonResult addUser(@RequestBody UserRequest user);
 }

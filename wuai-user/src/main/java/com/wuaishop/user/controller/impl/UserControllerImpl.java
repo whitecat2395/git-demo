@@ -1,17 +1,21 @@
 package com.wuaishop.user.controller.impl;
 
 import com.wuai.commons.entities.CommonResult;
+import com.wuaishop.user.controller.request.UserRequest;
 import com.wuaishop.user.controller.service.UserController;
 import com.wuaishop.user.persist.po.User;
 import com.wuaishop.user.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 
+import org.springframework.beans.BeanUtils;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.UUID;
 
 @Slf4j
 @RestController
@@ -47,8 +51,14 @@ public class UserControllerImpl implements UserController {
     }
 
     @Override
-    public CommonResult addUser(@RequestBody  User user) {
-        System.out.println(user.getId()+user.getUserName());
+    public CommonResult addUser(@RequestBody UserRequest userRequest) {
+        User user = new User();
+        System.out.println(userRequest.getUserName());
+        BeanUtils.copyProperties(userRequest,user);
+        String id = UUID.randomUUID().toString();
+        user.setId(id);
+        //角色id 0为游客用户 1为普通用户
+        user.setRoleId(1);
         int result = userService.addUser(user);
         System.out.println("addUser结果："+result);
         if (result== 1 ) {
