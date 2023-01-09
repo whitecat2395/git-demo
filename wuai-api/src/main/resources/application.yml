@@ -3,8 +3,31 @@ server:
 spring:
   application:
     name: wuai-api-server
+  #nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://localhost:8848
+#openFegin集成
+ribbon:
+  #指的是建立连接所用的时间，适用于网络状况正常的情况下,两端连接所用的时间
+  ReadTimeout: 5000
+  #指的是建立连接后从服务器读取到可用资源所用的时间
+  ConnectTimeout: 5000
+
+logging:
+  level:
+    com.atguigu.springcloud.service.PaymentFegin: debug #指定openfeign日志以什么级别监控哪个接口（可多个）
+feign:
+  hystrix:
+    enabled: true
+
+# 度量指标监控与健康检查
 management:
   endpoints:
     web:
       exposure:
-        include: '*'
+        include: refresh,health,hystrix.stream
+hystrix:
+  dashboard:
+    proxyStreamAllowList: "localhost"
