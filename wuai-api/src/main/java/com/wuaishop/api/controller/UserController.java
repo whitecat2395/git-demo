@@ -4,9 +4,7 @@ import com.wuai.commons.entities.CommonResult;
 import com.wuai.commons.entities.User;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.HashMap;
@@ -27,13 +25,21 @@ public class UserController {
         return commonResult;
     }
     @ApiOperation(value = "查询单个用户接口")
-    @GetMapping(value = "/wuai/user/queryUserById")
-    public CommonResult<User> queryUserById(){
+    @GetMapping(value = "/wuai/user/queryUserById/{id}")
+    public CommonResult<User> queryUserById(@PathVariable("id") String id){
         String url = uri+"/wuai/user"+"/queryUserById/{id}";
         RestTemplate restTemplate =new RestTemplate();
         Map<String,String> valuemap =new HashMap<>();
-        valuemap.put("id","1");
+        valuemap.put("id",id);
         CommonResult commonResult = restTemplate.getForObject(url, CommonResult.class,valuemap);
+        return commonResult;
+    }
+    @ApiOperation(value = "用户注册接口")
+    @PostMapping(value = "/wuai/user/addUser")
+    public CommonResult<User> addUser(@RequestBody User user){
+        String url = uri+"/wuai/user"+"/addUser";
+        RestTemplate restTemplate =new RestTemplate();
+        CommonResult commonResult = restTemplate.postForObject(url,user,CommonResult.class);
         return commonResult;
     }
 }

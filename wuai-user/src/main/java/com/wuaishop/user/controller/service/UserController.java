@@ -5,9 +5,7 @@ import com.wuaishop.user.persist.po.User;
 import com.wuaishop.user.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -20,11 +18,15 @@ public interface UserController {
     public CommonResult<List<User>> queryAllUser();
 
     @ApiOperation(value = "单一用户查询接口")
-    @RequestMapping(value = "/queryUserById/{id}")
+    @GetMapping(value = "/queryUserById/{id}")
     public CommonResult<User> queryUserById(@PathVariable(value = "id")  String id);
 
     @ApiOperation(value = "编辑用户接口")
     @GetMapping(value = "/updateOneUser")
     public CommonResult<User> updateOneUser();
+
+    @ApiOperation(value = "用户注册接口")
+    @PostMapping(value = "/addUser")
+    public CommonResult addUser(@RequestBody User user);
 
 }

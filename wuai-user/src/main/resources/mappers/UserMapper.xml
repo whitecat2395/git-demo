@@ -15,7 +15,7 @@
         <result column="insert_time" jdbcType="TIMESTAMP" property="insertTime"></result>
     </resultMap>
 
-    <select id="queryAllUser" resultMap="baseResultMap" resultType="java.util.ArrayList" >
+    <select id="queryAllUser" resultMap="baseResultMap"  >
         select * from w_user
     </select>
 
@@ -23,4 +23,11 @@
         select * from w_user where id = #{id}
     </select>
 
+    <insert id="insertUser"  parameterType="com.wuaishop.user.persist.po.User">
+        insert into w_user
+        (id,username,password,role_id,nick_name,email,phone,freeze,dept_id,remark,insert_time)
+        values
+        (#{id},#{userName},#{passWord},#{roleId},#{nickName},#{email},#{phone},#{freeze},#{deptId},#{remark},#{insertTime})
+    </insert>
+            
 </mapper>

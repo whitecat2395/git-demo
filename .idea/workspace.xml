@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de033b07-186c-42e7-9b77-35c7adf689ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wuai-commons/src/main/java/com/wuai/commons/entities/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuai-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wuai-api/src/main/java/com/wuaishop/api/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-api/src/main/java/com/wuaishop/api/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuai-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-api/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuai-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-commons/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuai-commons/src/main/java/com/wuai/commons/entities/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/controller/impl/UserControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/controller/impl/UserControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/controller/service/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/controller/service/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/persist/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/persist/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuai-user/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +114,7 @@
       <recent name="D:\GItWorkspace\wuaishop\wuai-static\src\main\webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiApplication">
+  <component name="RunManager" selected="Spring Boot.UserApplication">
     <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="wuai-api" />
       <extension name="coverage">
@@ -190,7 +190,7 @@
       <workItem from="1672966948895" duration="18184000" />
       <workItem from="1672995753753" duration="1234000" />
       <workItem from="1673226584532" duration="3740000" />
-      <workItem from="1673232284528" duration="3927000" />
+      <workItem from="1673232284528" duration="10449000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交，创建父级项目">
       <created>1672811266416</created>
@@ -388,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673232314635</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="feat:API服务，访问gateway拿取user服务的数据。&#10;成功">
+      <created>1673244176816</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1673244176816</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +436,8 @@
     <MESSAGE value="创建Userpo类" />
     <MESSAGE value="feat: 新增用户查询功能。" />
     <MESSAGE value="feat: 添加api模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 添加api模块" />
+    <MESSAGE value="feat:API服务，访问gateway拿取user服务的数据。&#10;成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:API服务，访问gateway拿取user服务的数据。&#10;成功" />
   </component>
   <component name="WindowStateProjectService">
     <state x="387" y="89" key="#Project_Structure" timestamp="1673242917709">
@@ -440,10 +448,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="554" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1672816826840" />
-    <state x="800" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1672985878921">
+    <state x="800" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1673245774954">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="800" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1672985878921" />
+    <state x="800" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1673245774954" />
     <state x="725" y="189" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1672986383517">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -464,10 +472,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="643" y="220" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1672969674038" />
-    <state x="358" y="0" key="CommitChangelistDialog2" timestamp="1673232313589">
+    <state x="358" y="0" key="CommitChangelistDialog2" timestamp="1673244176066">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="358" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1673232313589" />
+    <state x="358" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1673244176066" />
     <state x="575" y="171" key="FileChooserDialogImpl" timestamp="1673232039809">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -476,38 +484,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="666" y="323" width="273" height="263" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1672825070462" />
-    <state width="1262" height="149" key="GridCell.Tab.0.bottom" timestamp="1673244006682">
+    <state width="1262" height="354" key="GridCell.Tab.0.bottom" timestamp="1673250309161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1262" height="149" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1673244006682" />
-    <state width="1262" height="149" key="GridCell.Tab.0.center" timestamp="1673244006682">
+    <state width="1262" height="354" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1673250309161" />
+    <state width="1262" height="354" key="GridCell.Tab.0.center" timestamp="1673250309161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1262" height="149" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1673244006682" />
-    <state width="1262" height="149" key="GridCell.Tab.0.left" timestamp="1673244006682">
+    <state width="1262" height="354" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1673250309161" />
+    <state width="1262" height="354" key="GridCell.Tab.0.left" timestamp="1673250309161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1262" height="149" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1673244006682" />
-    <state width="1262" height="149" key="GridCell.Tab.0.right" timestamp="1673244006682">
+    <state width="1262" height="354" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1673250309161" />
+    <state width="1262" height="354" key="GridCell.Tab.0.right" timestamp="1673250309161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1262" height="149" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1673244006682" />
-    <state width="1262" height="149" key="GridCell.Tab.1.bottom" timestamp="1673244006682">
+    <state width="1262" height="354" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1673250309161" />
+    <state width="1262" height="354" key="GridCell.Tab.1.bottom" timestamp="1673250309161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1262" height="149" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1673244006682" />
-    <state width="1262" height="149" key="GridCell.Tab.1.center" timestamp="1673244006682">
+    <state width="1262" height="354" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1673250309161" />
+    <state width="1262" height="354" key="GridCell.Tab.1.center" timestamp="1673250309161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1262" height="149" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1673244006682" />
-    <state width="1262" height="149" key="GridCell.Tab.1.left" timestamp="1673244006682">
+    <state width="1262" height="354" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1673250309161" />
+    <state width="1262" height="354" key="GridCell.Tab.1.left" timestamp="1673250309161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1262" height="149" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1673244006682" />
-    <state width="1262" height="149" key="GridCell.Tab.1.right" timestamp="1673244006682">
+    <state width="1262" height="354" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1673250309161" />
+    <state width="1262" height="354" key="GridCell.Tab.1.right" timestamp="1673250309161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1262" height="149" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1673244006682" />
+    <state width="1262" height="354" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1673250309161" />
     <state width="1222" height="233" key="GridCell.Tab.2.bottom" timestamp="1672825650552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -532,14 +540,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="439" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1673229298002" />
-    <state x="471" y="167" key="Vcs.Push.Dialog.v2" timestamp="1673232317593">
+    <state x="471" y="167" key="Vcs.Push.Dialog.v2" timestamp="1673244179601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="471" y="167" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1673232317593" />
-    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1672997695778">
+    <state x="471" y="167" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1673244179601" />
+    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1673250545276">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1672997695778" />
+    <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1673250545276" />
     <state x="269" y="128" key="new project wizard" timestamp="1673227149656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
