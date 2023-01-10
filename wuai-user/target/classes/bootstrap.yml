@@ -1,0 +1,28 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: wuai-user-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://localhost:8848
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: org.gjt.mm.mysql.Driver
+    url: jdbc:mysql://localhost:3306/wuai_shop?userUnicode=true&characterEncodeing=utf-8&userSSL=false
+    username: root
+    password: 12345678
+#  mvc:
+#    pathmatch:
+#      matching-strategy: ant_path_matcher
+mybatis:
+  mapper-locations: classpath:mappers/*.xml
+  type-aliases-package: com.wuai.commons.entities #所有entity别名类所在的包
+  configuration:
+    map-underscore-to-camel-case: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
