@@ -8,7 +8,6 @@ import com.wuaishop.user.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 
 import org.springframework.beans.BeanUtils;
-import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -45,6 +44,7 @@ public class UserControllerImpl implements UserController {
             return new CommonResult<>(200, "查询成功", user);
         }
     }
+
     @Override
     public CommonResult<User> updateOneUser() {
         return null;
