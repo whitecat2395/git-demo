@@ -29,4 +29,8 @@ public interface UserController {
     @ApiOperation(value = "用户注册接口")
     @PostMapping(value = "/addUser")
     public CommonResult addUser(@RequestBody UserRequest user);
+
+    @ApiOperation(value = "用户登录接口")
+    @PostMapping(value = "/queryUserByName")
+    public CommonResult queryUserByName(@RequestBody String userName);
 }

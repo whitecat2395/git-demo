@@ -24,4 +24,8 @@ public class UserService {
     public int addUser(User user) {
         return userMapper.insertUser(user);
     }
+
+    public User queryUserByName(String userName) {
+        return userMapper.queryUserByName(userName);
+    }
 }

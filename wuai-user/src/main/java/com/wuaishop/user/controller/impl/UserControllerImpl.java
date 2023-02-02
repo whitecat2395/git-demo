@@ -38,10 +38,10 @@ public class UserControllerImpl implements UserController {
         User user = userService.queryUserById(id);
         if (user == null) {
             System.out.println("查询"+id+"失败");
-            return new CommonResult<>(400, "查询失败", null);
+            return new CommonResult<>(400, "查询用户失败", null);
         } else {
             System.out.println("查询"+id+"成功");
-            return new CommonResult<>(200, "查询成功", user);
+            return new CommonResult<>(200, "查询用户成功", user);
         }
     }
 
@@ -65,6 +65,17 @@ public class UserControllerImpl implements UserController {
             return new CommonResult<>(200, "注册成功", null);
         } else {
             return new CommonResult<>(400, "注册失败",null);
+        }
+    }
+
+    @Override
+    public CommonResult queryUserByName(String userName) {
+        User user = userService.queryUserByName(userName);
+
+        if(user!=null){
+            return new CommonResult(200,"",user);
+        }else{
+            return new CommonResult(400,"");
         }
     }
 }

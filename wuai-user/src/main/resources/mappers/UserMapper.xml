@@ -29,5 +29,9 @@
         values
         (#{id},#{userName},#{passWord},#{roleId},#{nickName},#{email},#{phone},#{freeze},#{deptId},#{remark},#{insertTime})
     </insert>
-            
+
+    <select id="queryUserByName" parameterType="String" resultMap="baseResultMap">
+        select * from w_user where username = #{userName}
+    </select>
+
 </mapper>
