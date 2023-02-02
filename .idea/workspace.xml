@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de033b07-186c-42e7-9b77-35c7adf689ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/enums/AuthStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/controller/impl/UserControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/controller/impl/UserControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/controller/service/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/controller/service/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/persist/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/persist/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/src/main/java/com/wuaishop/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wuai-user/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wuai-user/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +34,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -98,7 +97,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17285156" />
     <property name="project.structure.side.proportion" value="0.2825059" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -205,7 +204,8 @@
       <workItem from="1673500787688" duration="2323000" />
       <workItem from="1673572358122" duration="4064000" />
       <workItem from="1673586039081" duration="5063000" />
-      <workItem from="1675300270749" duration="796000" />
+      <workItem from="1675300270749" duration="3897000" />
+      <workItem from="1675305902430" duration="1070000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交，创建父级项目">
       <created>1672811266416</created>
@@ -445,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673336952645</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="项目上传">
+      <created>1675301097170</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1675301097170</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +469,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="构建基础网关1.1" />
     <MESSAGE value="构建基础网关1.2" />
     <MESSAGE value="构建基础网关1.3" />
     <MESSAGE value="构建admin服务,Autho2服务，rabbitMQ服务，user服务，commons服务，shop商城服务。" />
@@ -487,7 +493,8 @@
     <MESSAGE value="feat:修改注册功能隐藏id和角色id,并添加UUID生成的ID。角色id默认为i。" />
     <MESSAGE value="构建工程" />
     <MESSAGE value="构建工程1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="构建工程1.0" />
+    <MESSAGE value="项目上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目上传" />
   </component>
   <component name="WindowStateProjectService">
     <state x="387" y="89" key="#Project_Structure" timestamp="1673416110611">
@@ -522,10 +529,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="643" y="220" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1672969674038" />
-    <state x="358" y="0" key="CommitChangelistDialog2" timestamp="1673336951447">
+    <state x="358" y="0" key="CommitChangelistDialog2" timestamp="1675314437627">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="358" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1673336951447" />
+    <state x="358" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1675314437627" />
     <state x="143" y="62" key="DiffContextDialog" timestamp="1673315100599">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -594,14 +601,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="593" y="137" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1673575213914" />
-    <state x="266" y="88" key="SettingsEditor" timestamp="1673315320627">
+    <state x="266" y="0" key="SettingsEditor" timestamp="1675305889362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="266" y="88" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1673315320627" />
-    <state x="471" y="167" key="Vcs.Push.Dialog.v2" timestamp="1673336959627">
+    <state x="266" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1675305889362" />
+    <state x="471" y="167" key="Vcs.Push.Dialog.v2" timestamp="1675314441625">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="471" y="167" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1673336959627" />
+    <state x="471" y="167" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1675314441625" />
     <state x="617" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1673250545276">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
